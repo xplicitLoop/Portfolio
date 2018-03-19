@@ -1,0 +1,329 @@
+/* The CSS style have been divided into special tags sections: id sections and classes sections respectively */
+
+
+/* Special Tags Section: Alphabetically arranged */
+
+body {
+	font: 400 15px Lato, sans-serif;
+	line-height: 1.8;
+}
+
+footer {
+	background-color: #f2f2f2;
+	padding: 25px;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #303030;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
+h3 {
+	float: right;
+	margin-right: 60px;
+	color: #2d3c49;
+	margin-top: 80px;
+}
+
+hr {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 2px;
+	border-color: #7d97ad;
+}
+
+h4 {
+	font-size: 19px;
+	line-height: 1.375em;
+	color: #303030;
+	font-weight: 400;
+	margin-bottom: 30px;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+h5 {
+	font-family: fantasy;
+	font-style: oblique;
+}
+
+p {
+	float: right;
+	padding-top: 70px;
+}
+
+span {
+	font-style: normal;
+}
+
+
+/* Id Tags Section: Alphabetically arranged */
+
+#app {
+	color: orange;
+}
+
+#bend {
+	color: lightgreen;
+}
+
+#emailAddress {
+	color: darkgoldenrod;
+	float: left;
+	margin-left: 10px;
+	margin-top: -70px;
+	font-weight: 900;
+}
+
+#fend {
+	color: darkgreen;
+}
+
+#firstPipe {
+	color: beige;
+	float: left;
+	margin-left: 8px;
+	margin-top: -70px;
+	font-weight: 900;
+}
+
+#myLogo {
+	margin-left: 60px;
+	margin-top: 10px;
+	width: 100px;
+	height: 100px;
+	border: 2px solid green;
+}
+
+#name {
+	color: lightgrey;
+}
+
+#phoneNumber {
+	color: azure;
+	float: left;
+	margin-left: 20px;
+	margin-top: -70px;
+	font-weight: 900;
+}
+
+#secondPipe {
+	color: beige;
+	float: left;
+	margin-left: 15px;
+	margin-top: -70px;
+	font-weight: 900;
+}
+
+
+/* Classes tags here: Alphabetically arranged */
+
+.container-fluid {
+	padding: 60px 50px;
+}
+
+.designation {
+	color: aquamarine;
+	float: left;
+	margin-left: 300px;
+	margin-top: -70px;
+	font-weight: 900;
+}
+
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+}
+
+.fa-facebook {
+	color: #4267B2;
+}
+
+.fa:hover {
+	opacity: 0.7;
+}
+
+.fa-linkedin {
+	color: #007bb5;
+}
+
+.fa-skype {
+	color: #00aff0;
+}
+
+.fa-twitter {
+	color: #55ACEE;
+}
+
+.glyphicon {
+	margin-top: 20px;
+	color: darkgreen;
+	float: right;
+	font-size: 200px;
+}
+
+.glyphicon-signal {
+	margin-left: 20px;
+	float: right;
+}
+
+.image_attribute {
+	width: 230px;
+	height: 300px;
+}
+
+.jumbotron {
+	/* Jumbotron plus responsive properties */
+	background: url(../images/bolaji.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	background-size: 1000px 600px;
+	height: 1050px;
+	border-radius: 25px;
+	border: 2px solid #73AD21;
+	padding: 50px;
+}
+
+.mainHeading {
+	background-color: #2d3c49;
+	margin-top: -20px;
+	height: 50%;
+}
+
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+.navbar {
+	margin-bottom: 0;
+	z-index: 9999;
+	border: 0;
+	font-size: 12px !important;
+	line-height: 1.42857143 !important;
+	letter-spacing: 4px;
+	border-radius: 0;
+	font-family: Montserrat, sans-serif;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+	color: #f4511e !important;
+	background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+	color: #fff !important;
+}
+
+footer .glyphicon {
+	font-size: 20px;
+	margin-bottom: 20px;
+	color: #f4511e;
+}
+
+
+/* RESPONSIVENES- MOSTLY FOR THE PROJECT SECTION */
+
+* {
+	box-sizing: border-box;
+}
+
+
+/* Center website */
+
+.main {
+	max-width: 1000px;
+	margin: auto;
+}
+
+.row {
+	margin: 8px -16px;
+}
+
+
+/* Column Padding*/
+
+.row,
+.row>.column {
+	padding: 8px;
+}
+
+
+/* 4-equal columns that floats  */
+
+.column {
+	float: left;
+	width: 25%;
+}
+
+
+/* Clear floats after rows */
+
+.row::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+/* Content */
+
+.content {
+	background-color: white;
+	padding: 10px;
+}
+
+
+/* Responsive layout - 2 column-layout */
+
+@media (max-width: 900px) {
+	.column {
+		width: 50%;
+	}
+}
+
+
+/* Responsive layout - column stacking */
+
+@media (max-width: 600px) {
+	.column {
+		width: 100%;
+	}
+}
+
+
+/* RESPONSIVENES FOR THE ENTIRE OUTLOOK */
+
+@media screen and (max-width: 768px) {
+	.col-sm-4 {
+		text-align: center;
+		margin: 25px 0;
+	}
+	.btn-lg {
+		width: 100%;
+		margin-bottom: 35px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.logo {
+		font-size: 150px;
+	}
+}
